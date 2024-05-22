@@ -9,8 +9,10 @@ li {
 }
 
 
+
 body {
     background-color: #ffffff;
+    font-family: 'Inter';
 }
 
 
@@ -83,7 +85,7 @@ body {
 }
 
 .nav-dropdown.open {
-    height: 8rem
+    height: 7rem
 }
 
 .nav-dropdown a {
@@ -161,27 +163,4 @@ body {
     display: flex;
     text-align: left;
     flex-wrap: wrap;
-}
-
-.hero-text h1 {
-
-    font-size: 4rem;
-    margin-top: 2rem;
-    margin-bottom: 0;
-    padding-inline: 3rem;
-    height: 1rem;
-}
-
-.hero-text p {
-    font-size: 1rem;
-    padding-inline: 3rem;
-    height: 1rem;
-}
-
-.hero-text a {
-    font-size: 1rem;
-    margin-inline: 3rem;
-    text-decoration: none;
-    color: #ffffff;
-
 }
