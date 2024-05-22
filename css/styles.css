@@ -305,14 +305,14 @@ body {
 
 /* Autogestion*/
 .autogestion {
-    background-color: #000000;
+    background-color: #e4e4e4;
     margin-inline: 2rem;
     border-radius: 2rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .autogestion h2 {
-    color: #e4e4e4;
+    color: #000000;
     font-size: 2rem;
     padding-top: 1rem;
     margin-top: 4rem;
@@ -326,7 +326,8 @@ body {
 }
 
 .autogestion p {
-    color: white;
+    color: #000000;
+    ;
     padding: 2rem 0;
     margin-inline: 20rem;
 }
