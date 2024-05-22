@@ -321,15 +321,15 @@ body {
 }
 
 .autogestion hr {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     margin-inline: 20rem;
 }
 
 .autogestion p {
     color: #000000;
-    ;
-    padding: 2rem 0;
-    margin-inline: 20rem;
+    padding: 1.5rem 0;
+    margin-inline: 10%;
+    line-height: 1.5;
 }
 
 .card-container {
