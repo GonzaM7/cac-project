@@ -181,7 +181,7 @@ body {
 
 
 .hero-right {
-    padding-top: 50px;
+    padding-top: 3.125rem;
     padding: 4rem;
 }
 
@@ -241,12 +241,12 @@ body {
     width: 55%;
     float: right;
     background-color: #e4e4e4;
-    padding: 150px;
+    padding: 9.375rem;
 }
 
 .about-container h2 {
     margin-bottom: 0.5rem;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 900;
 }
 
@@ -265,24 +265,25 @@ body {
 }
 
 .text {
-    font-size: 13px;
+    font-size: 0.813rem;
     color: #545454;
     line-height: 30px;
     text-align: justify;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
+/* Media queries About */
 
 @media screen and (max-width:1200px) {
     .about-container {
-        padding: 80px;
+        padding: 5rem;
     }
 }
 
 @media screen and (max-width:1000px) {
     .about-us {
         background-size: 100%;
-        padding: 100px 40px;
+        padding: 6.25rem 2.5rem;
     }
 
     .about-container {
@@ -296,6 +297,6 @@ body {
     }
 
     .about-container {
-        padding: 60px;
+        padding: 3.75rem;
     }
 }
