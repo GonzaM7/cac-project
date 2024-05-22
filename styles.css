@@ -28,6 +28,10 @@ body {
     cursor: pointer;
 }
 
+.nav-logo img {
+    width: 240px;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
