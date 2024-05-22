@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 li {
@@ -15,7 +16,7 @@ body {
     font-family: 'Inter';
 }
 
-
+/*Navbar*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -134,7 +135,7 @@ body {
 
 
 
-
+/*Hero*/
 
 
 .hero {
@@ -190,6 +191,8 @@ body {
 
 }
 
+/* Media queries Hero */
+
 @media (max-width: 992px) {
     .hero {
         flex-direction: column;
@@ -220,5 +223,79 @@ body {
 
     .hero-right img {
         display: none;
+    }
+}
+
+
+/*About*/
+
+.about-us {
+    background: url(/img/about-img.jpg) no-repeat left;
+    background-size: 60%;
+    background-color: #000000;
+    overflow: hidden;
+    padding: 12.5rem 0;
+}
+
+.about-container {
+    width: 55%;
+    float: right;
+    background-color: #e4e4e4;
+    padding: 150px;
+}
+
+.about-container h2 {
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-container hr {
+    margin-bottom: 1.5rem;
+    width: 20rem;
+}
+
+.about-container a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.625rem 0.938rem;
+    background-color: #000000;
+    border-radius: 2rem;
+
+}
+
+.text {
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .about-container {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .about-us {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-us {
+        padding: 0;
+    }
+
+    .about-container {
+        padding: 60px;
     }
 }
