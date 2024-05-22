@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem 10%;
+    margin-top: 1rem;
+
+}
+
+.nav-logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+.nav-links a {
+    font-family: 'Inter';
+    text-decoration: none;
+    color: #000000;
+    margin-inline: 1.5rem;
+    padding: 1.2rem;
+    border-radius: 2rem;
+}
+
+.nav-links a:hover {
+    background-color: #e4e4e4;
+    transition: all 0.5s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 3rem;
+    background-color: #000000;
+}
+
+.nav-toggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-dropdown {
+    display: none;
+    position: absolute;
+    right: 5.5rem;
+    height: 0;
+    top: 5rem;
+    width: 8rem;
+    overflow: hidden;
+    background-color: #e4e4e4;
+    border-radius: 1rem;
+    backdrop-filter: blur(15px);
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav-dropdown.open {
+    height: 8rem
+}
+
+.nav-dropdown a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-dropdown li {
+    padding: 0.2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/* Media queries Navbar */
+@media (max-width:992px) {
+
+    .nav-links,
+    .nav-btn,
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-dropdown {
+        display: block;
+    }
+}
+
+@media (max-width:576px) {
+    .nav-dropdown {
+        right: 2rem;
+        left: 2rem;
+        width: unset;
+    }
+
+    .nav-dropdown li {
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero {
+    margin-top: 5rem;
+    height: 100vh;
+}
+
+.hero-text {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.hero-text h1 {
+
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-inline: 3rem;
+    height: 1rem;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    padding-inline: 3rem;
+    height: 1rem;
+}
+
+.hero-text a {
+    font-size: 1rem;
+    margin-inline: 3rem;
+    text-decoration: none;
+    color: #ffffff;
+
+}
