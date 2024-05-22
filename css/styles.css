@@ -194,6 +194,7 @@ body {
     .hero {
         flex-direction: column;
         text-align: center;
+        margin-top: 4rem;
     }
 
     .hero .hero-right {
